@@ -1,1 +1,8 @@
+# We are putting all. files starting with . in the .gitignore
 
+.*
+!.gitignore
+
+# Python specific 
+.pyc
+!**/__init__.py
